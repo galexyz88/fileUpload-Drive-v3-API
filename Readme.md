@@ -16,12 +16,12 @@ This is a script that uses the google drive api v3. Further Documentation and Re
 * Run   `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
 
 ## STEP 2: Authenticate flow on the initial run
-* Run the script with `python quickstart.py`  . This will open new window prompting you to allow the Application to access your google drive data. (Note this is only for the initial run).
+* Run the script with `python fileUpload.py`  . This will open new window prompting you to allow the Application to access your google drive data. (Note this is only for the initial run).
 
 # Additional Information:
 
 * The current script will create a new folder every time it is run containing any new/updated files to be uploaded on google drive. It handles updates by removing the old folder if it exists.
-* Please modify the names of the folder & list of files within `quickstart.py` in order to suit individual needs.
+* Please modify the names of the folder & list of files within `fileUpload.py` in order to suit individual needs.
 * If you want to read about/implement additional functionality please refer to the official google guides using the link at the top of this page.
 *  The current scope allows the application to only handle the files it creates. More information on scopes: https://developers.google.com/identity/protocols/oauth2/scopes#drive
 
